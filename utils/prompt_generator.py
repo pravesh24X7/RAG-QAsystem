@@ -17,7 +17,8 @@ def generate_prompt(location: str):
         Question: {query}
     """
 
-    prompt = PromptTemplate(template=template,
+    prompt = PromptTemplate(
+        template=template,
                         validate_input=True,
                         input_variables=["query", "context"])
     prompt.save(location)

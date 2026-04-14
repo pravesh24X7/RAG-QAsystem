@@ -11,7 +11,8 @@ def create_vector_store(file_path: str, save_path: str):
 
     splitter = RecursiveCharacterTextSplitter(
         chunk_size=500,
-        chunk_overlap=50
+        chunk_overlap=50,
+        separators=["\n\n", "\n", " "],
     )
 
     docs = splitter.split_documents(pages)
