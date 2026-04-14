@@ -16,7 +16,7 @@ Retriever (FAISS + Embeddings)
    ↓
 Relevant Document Chunks
    ↓
-Prompt इंजेक्शन
+Prompt
    ↓
 LLM (Groq - LLaMA)
    ↓
@@ -64,8 +64,8 @@ RAG-QASYSTEM/
 ### 1. Clone Repository
 
 ```
-git clone <your-repo-url>
-cd RAG-QASYSTEM
+git clone https://github.com/pravesh24X7/RAG-QAsystem.git
+cd RAG-QAsystem
 ```
 
 ### 2. Create Virtual Environment
@@ -89,7 +89,7 @@ Create a `.env` file and add:
 
 ```
 GROQ_API_KEY=your_api_key_here
-HF_TOKEN=your_huggingface_token   # optional but recommended
+HF_TOKEN=your_huggingface_token
 ```
 
 ---
@@ -183,13 +183,6 @@ Check:
 * Groq (LLaMA model)
 * FastAPI
 
----
-
-## 👨‍💻 Author
-
-Pravesh Srivastava
-
----
 
 ## 📄 License
 
