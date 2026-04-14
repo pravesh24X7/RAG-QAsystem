@@ -89,7 +89,7 @@ Create a `.env` file and add:
 
 ```
 GROQ_API_KEY=your_api_key_here
-HF_TOKEN=your_huggingface_token   # optional but recommended
+HF_TOKEN=your_huggingface_token
 ```
 
 ---
@@ -183,13 +183,6 @@ Check:
 * Groq (LLaMA model)
 * FastAPI
 
----
-
-## 👨‍💻 Author
-
-Pravesh Srivastava
-
----
 
 ## 📄 License
 
