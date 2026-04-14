@@ -3,7 +3,8 @@ from app.config import settings
 
 def main():
     pipeline = RAGPipeline(
-        store_path=settings.VECTOR_DB_PATH
+        store_path=settings.VECTOR_DB_PATH,
+        file_path="Paperid_637_manuscript.pdf",
     )
 
     print("[*] RAG based QA system")
