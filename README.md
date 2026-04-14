@@ -16,7 +16,7 @@ Retriever (FAISS + Embeddings)
    ↓
 Relevant Document Chunks
    ↓
-Prompt इंजेक्शन
+Prompt
    ↓
 LLM (Groq - LLaMA)
    ↓
