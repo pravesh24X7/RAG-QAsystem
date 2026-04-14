@@ -64,8 +64,8 @@ RAG-QASYSTEM/
 ### 1. Clone Repository
 
 ```
-git clone <your-repo-url>
-cd RAG-QASYSTEM
+git clone https://github.com/pravesh24X7/RAG-QAsystem.git
+cd RAG-QAsystem
 ```
 
 ### 2. Create Virtual Environment
