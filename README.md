@@ -7,21 +7,9 @@ It allows users to ask questions from a PDF document and get accurate answers us
 
 ---
 
-## ⚙️ How It Works
+## Architecture Diagram
 
-```
-User Query
-   ↓
-Retriever (FAISS + Embeddings)
-   ↓
-Relevant Document Chunks
-   ↓
-Prompt
-   ↓
-LLM (Groq - LLaMA)
-   ↓
-Final Answer
-```
+![Architecture Diagram](assets/architecture.png)
 
 ---
 
@@ -183,7 +171,3 @@ Check:
 * Groq (LLaMA model)
 * FastAPI
 
-
-## 📄 License
-
-This project is for educational and research purposes.
