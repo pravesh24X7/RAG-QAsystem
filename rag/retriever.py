@@ -36,7 +36,7 @@ def get_retriever(store_path=None):
     retriever = vector_store.as_retriever(search_type="mmr",
                                           search_kwargs={
                                               "k": 5,
-                                              "lambda_mult": 0.7,
+                                              "lambda_mult": 0.5,
                                           })
     
     return retriever
